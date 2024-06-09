@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="container">
+        <a href="#home" class="logo">Rahmat Hidayat</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero/Banner Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Welcome to My Personal Website</h1>
+        <p>I'm Rahmat Hidayat, a Student</p>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="experience-item">
+          <h3>SDN 004 Desa Semangko Kec.Marang Kayu</h3>
+          <p>"Teruslah belajar dan jadilah yang terbaik versimu sendiri."</p>
+        </div>
+        <div class="experience-item">
+          <h3>SMP 5 Desa Semangko Kec.Marang Kayu</h3>
+          <p>
+            "Jangan pernah takut untuk mencoba hal-hal baru dan berpetualang."
+          </p>
+        </div>
+        <div class="experience-item">
+          <h3>SMA 1 Marang Kayu</h3>
+          <p>
+            "Ingatlah, kesalahan adalah bagian dari proses belajar. Jangan
+            pernah menyerah!"
+          </p>
+        </div>
+        <!-- Add more experience items as needed -->
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+        <p id="form-message"></p>
+        <p class="contact-info">Phone: 087883100231</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Rahmat Hidayat. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
